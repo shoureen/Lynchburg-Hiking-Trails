@@ -1,16 +1,15 @@
 ```html
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- The head contains information about the webpage -->
     <meta charset="UTF-8">
 
-    <!-- Makes the website display properly on different screen sizes -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Title displayed in the browser tab -->
     <title>Hiking Trails in Lynchburg, VA</title>
+
+    <!-- Connects this HTML page to the CSS stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -39,10 +38,10 @@
     <main>
 
         <!-- Introduction section about hiking in Lynchburg -->
-        <section>
-            <h2>Explore Lynchburg's Trails</h2>
+       <section class="trail-card">
+    <h2>Explore Lynchburg's Trails</h2>
 
-            <p>
+           <p class="highlight">
                 Lynchburg is located along the James River in central
                 Virginia and has a variety of parks, greenways, and
                 trails for people to explore. These trails provide
@@ -59,9 +58,8 @@
 
 
         <!-- This section contains an unordered list of reasons to hike -->
-        <section>
-            <h2>Why Go Hiking?</h2>
-
+        <section class="trail-card">
+    <h2>Why Go Hiking?</h2>
             <p>
                 Hiking can be an enjoyable way to spend time outside
                 and explore the local environment. Some reasons people
@@ -79,8 +77,8 @@
 
 
         <!-- This section contains an ordered list about preparing for a hike -->
-        <section>
-            <h2>How to Prepare for a Hike</h2>
+        <section id="preparation" class="trail-card">
+    <h2>How to Prepare for a Hike</h2>
 
             <p>
                 Before heading out on a trail, it is helpful to prepare
@@ -98,8 +96,8 @@
 
 
         <!-- This section features an image and information about Blackwater Creek Trail -->
-        <section>
-            <h2>Featured Trail: Blackwater Creek Trail</h2>
+        <section id="featured-trail">
+    <h2>Featured Trail: Blackwater Creek Trail</h2>
 
             <img
                 src="images/blackwater-creek.jpg"
@@ -107,7 +105,7 @@
                 width="500"
             >
 
-            <p>
+           <p class="highlight">
                 Blackwater Creek Trail is one of the recreational trails
                 in Lynchburg. The trail follows Blackwater Creek and
                 passes through a natural, wooded environment close to

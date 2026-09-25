@@ -1,0 +1,127 @@
+/* Styles the entire webpage */
+body {
+    background-color: #eef5ee;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles all headings */
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+/* Styles all paragraphs */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+/* Styles the header */
+header {
+    background-color: #d8ead8;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Styles the navigation */
+nav {
+    background-color: #315c42;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Styles links inside the navigation */
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Adds an underline when the mouse is over a navigation link */
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Adds space around the main content */
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Gives each section a white background */
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Styles images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Styles the footer */
+footer {
+    background-color: #315c42;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Makes footer links white */
+footer a {
+    color: white;
+}
+/* Styles sections that use the trail-card class */
+.trail-card {
+    border: 2px solid #b7d4b7;
+}
+
+/* Highlights important paragraphs */
+.highlight {
+    background-color: #f0f7f0;
+    padding: 15px;
+    border-left: 5px solid #315c42;
+}
+/* Gives the featured trail section a special appearance */
+#featured-trail {
+    border: 3px solid #315c42;
+}
+
+/* Gives the preparation section a different background */
+#preparation {
+    background-color: #e4f0e4;
+}
+/* Flexbox container places the trail boxes side by side */
+.trail-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Styles each individual trail box */
+.trail-box {
+    flex: 1;
+    min-width: 200px;
+    padding: 20px;
+    background-color: #edf5ed;
+    border: 2px solid #b7d4b7;
+    border-radius: 10px;
+}
+
+/* Centers the headings inside each trail box */
+.trail-box h3 {
+    margin-top: 0;
+}
