@@ -125,3 +125,50 @@ footer a {
 .trail-box h3 {
     margin-top: 0;
 }
+
+/* Makes the website easier to use on smaller screens */
+@media (max-width: 700px) {
+
+    /* Reduces spacing around the header */
+    header {
+        padding: 20px;
+    }
+
+    /* Makes the main heading smaller on phones */
+    h1 {
+        font-size: 28px;
+    }
+
+    /* Makes paragraphs easier to read on small screens */
+    p {
+        font-size: 16px;
+    }
+
+    /* Reduces spacing around the main content */
+    main {
+        margin: 15px auto;
+        padding: 10px;
+    }
+
+    /* Reduces section spacing */
+    section {
+        padding: 18px;
+    }
+
+    /* Stacks the trail boxes vertically on smaller screens */
+    .trail-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Makes each trail box use the full available width */
+    .trail-box {
+        min-width: 0;
+    }
+
+    /* Makes navigation links easier to use on small screens */
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}
