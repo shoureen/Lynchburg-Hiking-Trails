@@ -8,8 +8,16 @@
 
     <title>Hiking Trails in Lynchburg, VA</title>
 
-    <!-- Connects this HTML page to the CSS stylesheet -->
-    <link rel="stylesheet" href="./css/style.css">
+   
+<!-- Bootstrap CSS library -->
+<link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+>
+
+<!-- Your custom CSS loads after Bootstrap -->
+<link rel="stylesheet" href="./css/style.css">
+
 </head>
 
 <body>
@@ -28,14 +36,14 @@
 
 
     <!-- Navigation allows visitors to move between the two webpages -->
-    <nav>
+    <nav class="py-3">
         <a href="index.html">Home</a>
         <a href="page2.html">Trail Guide</a>
     </nav>
 
 
     <!-- Main contains the primary content of the webpage -->
-    <main>
+    <main class="container my-4">
 
         <!-- Introduction section about hiking in Lynchburg -->
        <section class="trail-card">
@@ -132,7 +140,9 @@
                 Creekside Trail, and Ivy Creek Greenway.
             </p>
 
-            <a href="page2.html">Read the Lynchburg Trail Guide</a>
+            <a href="page2.html" class="btn btn-success mt-3">
+    Read the Lynchburg Trail Guide
+</a>
         </section>
 
     </main>

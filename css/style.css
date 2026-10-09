@@ -219,3 +219,53 @@ footer a {
         margin: 10px 0;
     }
 }
+
+
+/* Custom design choices that work alongside Bootstrap */
+
+/* Keeps the hiking website's nature-inspired color scheme */
+body {
+    background-color: #eef5ee;
+    font-family: Arial, sans-serif;
+}
+
+/* Gives the header its own visual identity */
+header {
+    background-color: #d8ead8;
+    padding: 30px;
+    text-align: center;
+}
+
+/* Keeps the custom forest-green navigation */
+nav {
+    background-color: #315c42;
+    text-align: center;
+}
+
+/* Makes navigation links readable */
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Preserves the custom heading font */
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+}
+
+/* Preserves the custom trail card appearance */
+.trail-box {
+    background-color: #edf5ed;
+    border: 2px solid #b7d4b7;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Adds a visible hover effect to navigation links */
+nav a:hover {
+    text-decoration: underline;
+}
